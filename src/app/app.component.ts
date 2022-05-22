@@ -12,7 +12,7 @@ import { MatTableDataSource } from '@angular/material/table';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Angular13Crud';
+  title = 'myMightycrud';
 
   // for the products table
   displayedColumns: string[] = ['name', 'category', 'date', 'condition', 'price', 'description', 'action'];
