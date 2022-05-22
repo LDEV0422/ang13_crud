@@ -5,8 +5,8 @@
       "category": "Prints",
       "date": "2022-05-19T22:00:00.000Z",
       "condition": "Brand New",
-      "price": 15,
-      "description": "This poster is my life!",
+      "price": 15.99,
+      "description": "This poster will be your life!",
       "id": 1
     },
     {
@@ -17,16 +17,15 @@
       "price": 4,
       "description": "A great mug for green tea.",
       "id": 2
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Hat 1",
+      "category": "Apparel",
+      "date": "2022-05-22T22:00:00.000Z",
+      "condition": "Brand New",
+      "price": 25,
+      "description": "Great black hat!",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

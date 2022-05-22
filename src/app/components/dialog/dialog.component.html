@@ -20,7 +20,7 @@
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
-    <label for="">
+    <label>
       <h2>Product Condition</h2>
     </label>
     <mat-radio-group formControlName="condition" class="example-radio-group">
@@ -39,6 +39,6 @@
   </form>
 </div>
 <div mat-dialog-actions [align]="'end'">
-  <button mat-raised-button color="primary" (click)="addProduct()">Save</button>
+  <button mat-raised-button color="primary" (click)="addProduct()">{{ actionBtn }}</button>
   <button mat-raised-button color="warn" mat-dialog-close>Close</button>
 </div>
